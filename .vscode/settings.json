@@ -5,6 +5,7 @@
         "list": "cpp",
         "cmath": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "type_traits": "cpp"
     }
 }
