@@ -6,6 +6,8 @@
         "cmath": "cpp",
         "xstring": "cpp",
         "xutility": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "iosfwd": "cpp",
+        "exception": "cpp"
     }
 }
