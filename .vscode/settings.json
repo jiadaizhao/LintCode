@@ -8,6 +8,9 @@
         "xutility": "cpp",
         "type_traits": "cpp",
         "iosfwd": "cpp",
-        "exception": "cpp"
+        "exception": "cpp",
+        "__bit_reference": "cpp",
+        "algorithm": "cpp",
+        "bitset": "cpp"
     }
 }
