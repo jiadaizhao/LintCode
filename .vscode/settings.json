@@ -11,6 +11,10 @@
         "exception": "cpp",
         "__bit_reference": "cpp",
         "algorithm": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "memory": "cpp",
+        "utility": "cpp",
+        "string": "cpp",
+        "limits": "cpp"
     }
 }
