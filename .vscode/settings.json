@@ -15,6 +15,7 @@
         "memory": "cpp",
         "utility": "cpp",
         "string": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "string_view": "cpp"
     }
 }

@@ -41,6 +41,7 @@ public:
         }
         vector<string> result;
         dfs(root, target, k, dp, result);
+        delete root;
         return result;
     }
     
