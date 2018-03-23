@@ -11,8 +11,8 @@ The whole input represents a binary tree. It contains an integer followed by zer
 You always start to construct the left child node of the parent first if it exists.
 
 **Notice**  
-There will only be '(', ')', '-' and '0' ~ '9' in the input string.
-An empty tree is represented by "" instead of "()".
+1. There will only be '(', ')', '-' and '0' ~ '9' in the input string.
+2. An empty tree is represented by "" instead of "()".
 
 **Example**  
 Given s = "4(2(3)(1))(6(5))", return the tree root node representing the following tree:
