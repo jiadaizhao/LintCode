@@ -17,6 +17,7 @@
         "string": "cpp",
         "limits": "cpp",
         "string_view": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "xlocale": "cpp"
     }
 }
