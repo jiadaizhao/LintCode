@@ -1,3 +1,3 @@
 # LintCode
-LintCode C++ Solution
+LintCode C++ Solution  
 With Python3 in the future
