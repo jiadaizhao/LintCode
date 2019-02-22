@@ -4,6 +4,7 @@ Difficulty: Easy
 
 https://lintcode.com/problem/log-sorting/description
 
+**Description**  
 Give a log, consisting of List< String >, each element representing one line of logs. Each line of log information is separated by a space. The first is the ID of the log, followed by the log content.
 There are two ways to make content:
 

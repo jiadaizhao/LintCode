@@ -4,6 +4,7 @@ Difficulty: Medium
 
 https://lintcode.com/problem/digital-coverage/description
 
+**Description**  
 Given some intervals, ask how many are covered most, if there are multiple, output the smallest number.
 
 **Notice**  

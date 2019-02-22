@@ -4,6 +4,7 @@ Difficulty: Hard
 
 https://lintcode.com/problem/minimum-cycle-section/description
 
+**Description**  
 Given an array of int, find the length of the minimum cycle section.
 
 **Notice**  

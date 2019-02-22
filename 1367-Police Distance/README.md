@@ -4,6 +4,7 @@ Difficulty: Medium
 
 https://lintcode.com/problem/police-distance/description
 
+**Description**  
 Given a matrix size of n x m, element 1 represents policeman, -1 represents wall and 0 represents empty.  
 Now please output a matrix size of n x m, output the minimum distance between each empty space and the nearest policeman
 

@@ -4,6 +4,7 @@ Difficulty: Hard
 
 https://lintcode.com/problem/the-barycentre-of-the-trees/description
 
+**Description**  
 For a multi-branch tree, if there is a node R with R as the root, and the largest sub-tree of all its sub-trees has the least number of nodes, the node R is said to be the center of gravity of the tree.
 Now give you a multi-branch tree with n nodes. Find the center of gravity of this tree. If there are multiple centers of gravity, return the one with the lowest number.
 x[i], y[i] represents the two points of the i-th edge.

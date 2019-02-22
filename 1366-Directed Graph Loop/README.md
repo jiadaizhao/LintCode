@@ -4,6 +4,7 @@ Difficulty: Medium
 
 https://lintcode.com/problem/directed-graph-loop/description
 
+**Description**  
 Please judge whether there is a cycle in the directed graph with n vertices and m edges. The parameter is two int arrays. There is a directed edge from start[i] to end[i].
 
 **Notice**  

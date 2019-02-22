@@ -19,5 +19,6 @@
         "string_view": "cpp",
         "xiosbase": "cpp",
         "xlocale": "cpp"
-    }
+    },
+    "python.linting.pylintEnabled": true
 }

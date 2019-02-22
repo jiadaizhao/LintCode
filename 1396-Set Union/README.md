@@ -4,6 +4,7 @@ Difficulty: Medium
 
 https://lintcode.com/problem/set-union/description
 
+**Description**  
 There is a list composed by sets. If two sets have the same elements, merge them. In the end, there are several sets left.
 
 **Notice**  

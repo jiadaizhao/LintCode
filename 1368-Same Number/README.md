@@ -4,6 +4,7 @@ Difficulty: Easy
 
 https://lintcode.com/problem/same-number/description
 
+**Description**  
 Given an array, If the same number exists in the array, and the distance of the same number is less than the given value k, output YES, otherwise output NO.
 
 **Notice**  

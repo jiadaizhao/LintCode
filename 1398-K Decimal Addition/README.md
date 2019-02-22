@@ -4,6 +4,7 @@ Difficulty: Easy
 
 https://lintcode.com/problem/k-decimal-addition/description
 
+**Description**  
 Give k, a, b, which means a and b are all k base numbers, and output a + b.
 
 **Notice**  
