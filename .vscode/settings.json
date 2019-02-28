@@ -20,5 +20,5 @@
         "xiosbase": "cpp",
         "xlocale": "cpp"
     },
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": false
 }
