@@ -1,6 +1,6 @@
 # 801. Backpack X
 
-Difficulty: medium
+Difficulty: Medium
 
 http://www.lintcode.com/en/problem/backpack-x/
 
