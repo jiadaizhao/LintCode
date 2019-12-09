@@ -7,30 +7,38 @@ public:
      */
     int digitCounts(int k, int n) {
         // write your code here
-        if (k == 0 && n == 0)
-        {
+        if (k == 0 && n == 0) {
             return 1;
         }
-        int base = 1;
         int count = 0;
-        while (n / base)
-        {
+        for (int base = 1; base <= n; base *= 10) {
             int curr = n / base % 10;
             int low = n % base;
             int high = n / (base * 10);
-            if (curr < k)
-            {
-                count += high * base;
+            if (k != 0) {
+                if (curr < k) {
+                    count += high * base;
+                }
+                else if (curr == k) {
+                    count += high * base + low + 1;
+                }
+                else {
+                    count += (high + 1) * base;
+                }
             }
-            else if (curr == k)
-            {
-                count += high * base + low + 1;
+            else {
+                if (base == 1) {
+                    count += high + 1;
+                }
+                else if (high != 0) {
+                    if (curr > 0) {
+                        count += high * base;
+                    }
+                    else {
+                        count += (high - 1) * base + low + 1;
+                    }
+                }
             }
-            else if (high != 0 || k != 0)
-            {
-                count += (high + 1) * base;
-            }
-            base *= 10;
         }
         
         return count;
