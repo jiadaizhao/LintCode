@@ -26,3 +26,25 @@ class Solution:
                 result[i] = f
                 target -= f
         return result
+
+# Greedy
+import heapq
+import math
+class Solution2:
+    def getArray(self, A, target):
+        pq = []
+        result = [0] * len(A)
+        for i, a in enumerate(A):
+            f = math.floor(a)
+            c = math.ceil(a)
+            target -= f
+            result[i] = f
+            if f != c:
+                heapq.heappush(pq, ((c - a) - (a - f), i))
+        
+        while target > 0:
+            v, i = heapq.heappop(pq)
+            result[i] = math.ceil(A[i])
+            target -= 1
+            
+        return result
